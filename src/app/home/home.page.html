@@ -1,24 +1,64 @@
 <ion-header>
   <ion-toolbar color="secondary">
+   <div class="nav">
     <div class="flex">
       <ion-title>
-        <img class="logo" src="/assets/trinity logo.svg" alt="Logo for the trinity logo">
+        <!-- <img class="logo" src="/assets/trinity logo.svg" alt="Logo for the trinity logo"> -->
+        <span class="title">
+          Browse
+        </span>
       </ion-title>
+
       <ion-title>
-        <ion-icon name="search-outline"></ion-icon>
-      </ion-title>
-      <ion-title class="ml-auto">
-        <div class="cart-count">
-          <ion-badge color="primary">0</ion-badge>
+        <div class="cart-count ml-auto">
+          <ion-badge color="primary" >0</ion-badge>
           <ion-icon name="cart-outline"></ion-icon>
         </div> 
       </ion-title>
     </div>
-    
+    <div class="lower-nav">
+      <form>
+        <ion-icon name="search-outline"></ion-icon>
+
+        <ion-input placeholder="Search Plumbing and Fixtures"></ion-input>
+      </form>
+
+    </div>
+   </div>
 
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <!-- <p>This is aagraph</p> -->
+<ion-content >
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+            <ion-card-title>Card Title</ion-card-title>
+          </ion-card-header>
+      
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+      </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+            <ion-card-title>Card Title</ion-card-title>
+          </ion-card-header>
+      
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+      </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
